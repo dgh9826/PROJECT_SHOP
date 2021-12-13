@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position:fixed; 
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 175px;
+    padding:1rem;
+    background-color: #ffffff;
+    z-index: 999999;
+}
+.page{
+    min-height: 100%;
+    position: relative;
+}
+#index01{
+    width: 1360px;
+    margin: 0 auto;
+    position: relative;
+    margin-top:200px;
+}
+#header1{
+    height:100px;
+    border-bottom: 1px solid #3e4042;
+    box-sizing:border-box;
+    text-align: center;
+    line-height: 100px;
+    font-size:30px;
+    margin-top:20px;
+}
+a{
+    color:black;
+}
+ul{
+    list-style-type: none;
+}
+.head a{
+    text-decoration: none;
+}
+.head span{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    vertical-align: bottom;
+}
+.logo{
+    width:50px;
+    height: 50px;
+    margin: 25px 0 0 25px;
+}
+.menu{
+    float: right;
+    margin:40px 20px 0 0;
+}
+.menu li{
+    display:inline-block;
+}
+.menu2 a{
+    float:left;
+    margin:30px 0 0 20px;
+    text-decoration: none;
+    height:80px;
+}
+.menu2 a:hover{
+    text-decoration: underline 5px;
+    /* font-weight: bold; */
+}
+.menu2 li{
+    float:left;
+    font-size: 30px;
+    margin-left: 80px;
+}
+.menu2 li:hover{
+    font-weight: bold;
+}
+.search{
+    float: right;
+    margin:30px 20px 0 0;
+    width: 280px;
+    border:1px solid #3e4042;
+    height: 40px;
+    background-color:#ffffff;
+}
+.search input{
+    font-size: 15px;
+    width: 200px;
+    border:0px;
+    outline: none;
+    float: left;
+    padding:11px;
+}
+.search button{
+    width:50px;
+    height: 100%;
+    border:0px;
+    outline: none;
+    background-color: #3e4042;
+    float: right;
+    color:#ffffff;
+}
+.search img{
+    width:50px;
+    height: 100%;
+}
+.head2{
+    margin:10px 20px;
+    border-top:solid 2px #3e4042;
+    border-bottom: solid 2px #3e4042;
+    height: 100px;
+}
+.head2 li li {
+    display:block;
+    float: left;
+    margin:0px;
+    padding:0px;
+    width:100px;
+}
+.head2 li:hover ul{
+    display:grid;
+}   
+.head2 li ul a{
+    height:30px;
+    font-size:20px;
+    margin:0px;
+    padding:10px 10px 0px 15px;
+}
+.head2 li ul a:hover, .head2 li ul li:hover a{
+    color:#0c0c0c;
+}
+.submenu{
+    display: none;    
+    /* border:1px solid black; */
+    background-color: #fff;
+    position:absolute;
+    width:120px;
+    height: auto;
+    z-index:100;
+    margin-top: 90px;
+    padding-top:5px;
+    margin-left:10px;
+}
+.submenu a:hover{
+    display: block;
+}
+
