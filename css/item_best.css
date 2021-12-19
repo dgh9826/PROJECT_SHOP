@@ -10,7 +10,7 @@ header{
     top:0;
     left:0;
     right:0;
-    width: 1480px;
+    /* width: 100%; */
     height: 175px;
     padding:1rem;
     background-color: #ffffff;
@@ -20,7 +20,7 @@ header{
 body{
 }
 .page{
-    width:1510px;
+    width:100%;
     min-height: 100%;
     position: relative;
 }
@@ -33,7 +33,7 @@ body{
     padding-bottom: 2000px;
 }
 aside{
-    margin-left: 30px;
+    margin-left: -50px;
     margin-top:100px;
     width: 200px;
     float: left;
